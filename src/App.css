@@ -1,0 +1,115 @@
+/* App.css */
+body {
+  margin: 0;
+  background-color: #f4f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  background: white;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #3498db;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background-color: #2980b9;
+}
+
+li button:last-child {
+  background-color: #e74c3c;
+}
+
+li button:last-child:hover {
+  background-color: #c0392b;
+}
+
+/* Add button */
+button + ul {
+  margin-top: 20px;
+}
+
+button:first-child {
+  margin-top: 20px;
+  background-color: #2ecc71;
+}
+
+button:first-child:hover {
+  background-color: #27ae60;
+}
